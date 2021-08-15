@@ -1,0 +1,20 @@
+{
+  "name": "C64ify",
+  "short_name": "C64ify",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "theme_color": "#8a7bce",
+  "background_color": "#8a7bce",
+  "display": "standalone"
+}

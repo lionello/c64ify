@@ -1,0 +1,30 @@
+@import "mq";
+@import "vars";
+
+@font-face {
+  font-family: "Commodore 64";
+  src: url("../assets/c64.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Commodore 64", sans-serif;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  font-size: 10px;
+}
+
+#root {
+  background-color: $color-lightblue;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: $color-darkblue;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
