@@ -1,5 +1,6 @@
 # C64ify
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4c76c262-9cf5-4542-9481-88d0631cd888/deploy-status)](https://app.netlify.com/sites/cranky-fermi-468f18/deploys)
 
 Source code for [c64.juri.to](https://c64.juri.to).
 
