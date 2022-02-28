@@ -46,6 +46,7 @@ function Camsrc({ src, onPixelSrc }) {
   return (
     <video
       style={{ opacity: 0 }}
+      playsInline
       onPlaying={onCanPlay}
       ref={vRef}
       autoPlay={true}

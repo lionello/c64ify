@@ -25,7 +25,8 @@ function App() {
       .toString()
       .substr(-6)}.png`;
     link.href = canvas.toDataURL();
-    link.click();
+    //safari ios workaround
+    setTimeout(() => link.click());
   }, [canvas]);
 
   useEffect(() => {

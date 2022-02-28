@@ -127,7 +127,6 @@ function Glcanvas({ onInit, settings, onRenderStateChange }) {
 
           if (!raf) {
             raf = requestAnimationFrame(render);
-          } else {
           }
         }
       } else {
