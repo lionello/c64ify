@@ -1,11 +1,11 @@
-import { fromBlob } from "file-type/browser";
+import { fileTypeFromBlob } from "file-type/core";
 
 import "./upload.scss";
 
 function Upload({ onPixelSrc }) {
   const onChange = (e) => {
     if (e.target.files.length === 1) {
-      fromBlob(e.target.files[0]).then((res) => {
+      fileTypeFromBlob(e.target.files[0]).then((res) => {
         if (res.mime === "image/jpeg" || res.mime === "image/png") {
           const fr = new FileReader();
           fr.readAsDataURL(e.target.files[0]);

@@ -3,17 +3,22 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
-    "file-type": "^16.5.2",
-    "node-sass": "^6.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "twgl-base.js": "^4.19.2",
-    "web-vitals": "^1.1.2"
+    "buffer": "^6.0.3",
+    "file-type": "^18.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "twgl-base.js": "^5.5.1",
+    "web-vitals": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "sass": "^1.66.1",
+    "vite": "^4.4.9"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": [
